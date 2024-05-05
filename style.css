@@ -13,6 +13,9 @@
     --preto-texto:#1b1b1b;
     --branco:#fff; 
 }
+::-webkit-scrollbar {
+    width: 5px;
+}
 section{
     padding: 50px 100px;
 }
@@ -101,4 +104,46 @@ header{
 }
 .btn-produtos:hover{
     background: #e2e1e1e5;
+}
+footer {
+    height: 160px;
+    background-color: var(--bege); 
+    padding: 20px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+footer p {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px; 
+    color: var(--preto-texto); 
+}
+footer input[type="email"] {
+    width: 30%; 
+    font-family: 'Poppins', sans-serif;
+    padding: 7px; 
+    border: 1px solid #D9D9D9;
+    border-radius: 7px; 
+    display: block; 
+    margin: 0 auto;
+    text-align:center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+footer button[type="submit"] {
+    padding: 10px 30px;
+    font-family:'Lucida Sans', sans-serif;
+    background-color:#976F50; 
+    color: var(--branco); 
+    border: none; 
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer button[type="submit"]:hover{
+    background: #AA8664;
 }
