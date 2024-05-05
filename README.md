@@ -1,4 +1,4 @@
-# Landing Page - Cafeteria"
+# Landing Page - Cafeteria
 
 Projeto foi desenvolvido utilizando HTML e CSS de uma cafeteria fictícia.
 
