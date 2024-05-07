@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@keyframes cafeGif {
+    0% {
+        transform: translateY(0); 
+    }
+    100% {
+        transform: translateY(-23px);
+    }
+}
 *{
     font-family: 'Fjalla One', sans-serif;
     margin: 0;
@@ -19,8 +27,9 @@
 section{
     padding: 50px 100px;
 }
-home-img {
+.home-img {
     width: 100%;
+    animation: cafeGif 2s ease-in-out infinite alternate;
 }
 header{
     position: absolute;
