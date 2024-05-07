@@ -23,7 +23,7 @@ home-img {
     width: 100%;
 }
 header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     right: 0;
